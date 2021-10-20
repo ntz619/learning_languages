@@ -1,0 +1,17 @@
+h1{
+color: darkkhaki;
+background-color: rgba(223, 206, 195, 0.274);
+}
+.artwork{
+    
+    padding: 15px;
+    border: 3px dashed rgba(221, 99, 17, 0.712);
+    border-radius: 10px;
+}
+a[href]{
+    background-color: none;
+    color: rgba(8, 39, 66, 0.747);
+    text-decoration: none;
+    font-weight: bold;
+    
+}

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="EN">
+<head>
+    <link rel="stylesheet" href="styles.css">
+    <title>SolMee Cats🐱 - SignUp</title>
+</head>
+<body>
+    
+    <h1>SolMee Cats SignUp</h1>
+    <a href="index.html">Back to Frontpage</a><br><br>
+    <form action="">
+        <label  for="username">enter username:</label>
+        <input type="text" id="username" name="username" placeholder="username" required>
+        <br><br>
+        <label for="email">enter email:</label>
+        <input type="email" id="email"  name="email" placeholder="your email" required>
+        <br><br>
+        <label for="password">enter password:</label>
+        <input type="password" id="password" name="password" placeholder="your password" required>
+        <br><br>
+        
+        <span class="signup">Select your age:</span>
+
+        <input type="radio" name="age" value="0-18" id="option-1"> 
+        <label for="option-1">0-18</label>
+        <input type="radio" name="age" value="19-29" id="option-1">
+        <label for="option-1">19-29</label>
+        <input type="radio" name="age" value="30+" id="option-1">
+        <label for="option-1">30+ </label>
+
+        <br><br>
+
+        <label for="question">Security question:</label>
+        <select name="question" id="">question
+            <option value="q1">What is your favorite color?</option>
+            <option value="q2">What your Mothers name?</option>
+            <option value="q3">How was your first teacher called?</option>
+        </select>
+
+        <br><br>
+
+        <label for="answer">Answer:</label>
+        <input type="text" id="answer"  name="answer">
+
+        <br><br>
+        <label for="aboutyou">What you want to tell us:</label><br>
+        <textarea name="aboutyou" id="aboutyou" cols="30" rows="10" placeholder="about you.."></textarea>
+        <br>
+        <input type="submit" value="submit the form">
+    </form>
+    <br>
+    <a href="index.html">Back to Frontpage</a>
+</body>
+</html>
